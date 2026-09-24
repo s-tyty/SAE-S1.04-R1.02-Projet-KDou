@@ -1,45 +1,45 @@
-# Web Report - SAE S1.04 & R1.02: KDou Project
+# Rapport Web - SAE S1.04 & R1.02 : Projet KDou
 
-This repository hosts the static website serving as the official report for SAE S1.04 (Database Creation) and course R1.02 (Web Interface Development).
+Ce dépôt héberge le site web statique servant de rapport officiel pour la SAE S1.04 (Création de base de données) et le module R1.02 (Développement d'interfaces web).
 
-It presents a complete data analysis of the KDou company in the form of a web interface.
+Il présente une analyse de données complète de l'entreprise KDou sous la forme d'une interface web.
 
-## Access to the Site
-The site is viewable online via GitHub Pages (link to be activated in the repository settings).
+## Accès au site
 
-## Report Content
+Le site est consultable en ligne via GitHub Pages (lien à activer dans les paramètres du dépôt).
 
-The site is structured according to the assignment guidelines:
+## Contenu du rapport
 
-* **Home**: Team presentation and introduction to the KDou context.
-* **Mission 1 (Data Study)**: Context analysis, critical study of existing data, and improvement proposals.
-* **Mission 2 (Low-Code Interface)**: Database utilization via an interface (Access/Excel), presentation of indicators, and associated queries.
-* **Mission 3 (SQL Analysis)**: In-depth SQL analysis on the new version of the database (Products, Clients, Origins, etc.).
-* **Technical Overview**: A dedicated page explaining the technical realization of this website (architecture, CSS choices, challenges).
+Le site est structuré selon les consignes du projet :
 
-## Technical Constraints Respected
+* **Accueil** : Présentation de l'équipe et introduction au contexte KDou.
+* **Mission 1 (Étude des données)** : Analyse du contexte, étude critique des données existantes et propositions d'amélioration.
+* **Mission 2 (Interface Low-Code)** : Exploitation de la base de données via une interface (Access/Excel), présentation des indicateurs et des requêtes associées.
+* **Mission 3 (Analyse SQL)** : Analyse SQL approfondie sur la nouvelle version de la base de données (Produits, Clients, Origines, etc.).
+* **Aperçu technique** : Une page dédiée expliquant la réalisation technique de ce site web (architecture, choix CSS, difficultés rencontrées).
 
-In accordance with the R1.02 specifications:
+## Contraintes techniques respectées
 
-* **100% Hand-Coded**: No generators (Wix, WordPress) or WYSIWYG tools were used.
-* **Languages**: HTML5 and CSS3 only.
-* **Design**: Responsive Site (adapted for laptops and desktops) using Flexbox for layout.
-* **Structure**: Use of semantic tags, tables, lists, and images.
-* **Compatibility**: Tested and validated on Firefox.
+Conformément au cahier des charges R1.02 :
 
-## File Structure
+* **100% codé à la main** : Aucun générateur (Wix, WordPress) ou outil WYSIWYG n'a été utilisé.
+* **Langages** : HTML5 et CSS3 uniquement.
+* **Design** : Site Responsive (adapté pour ordinateurs portables et de bureau) utilisant Flexbox pour la mise en page.
+* **Structure** : Utilisation de balises sémantiques, de tableaux, de listes et d'images.
+* **Compatibilité** : Testé et validé sur Firefox.
 
-```
+## Structure des fichiers
+
+```text
 /
-├── index.html       # Home page
-├── mission1.html    # Mission 1 Report
-├── mission2.html    # Mission 2 Report
-├── mission3.html    # Mission 3 Report
-├── meta-rapport.html # Explanation of Web work
+├── index.html        # Page d'accueil
+├── mission1.html     # Rapport Mission 1
+├── mission2.html     # Rapport Mission 2
+├── mission3.html     # Rapport Mission 3
+├── meta-rapport.html # Explication du travail Web
 ├── css/
-│   └── style.css    # Stylesheets
+│   └── style.css     # Feuilles de style
 └── img/
-    └── ...          # Screenshots, DB schemas, logos
+    └── ...           # Captures d'écran, schémas de BD, logos
+
 ```
----
-Project realized as part of the BUT Informatique (Bachelor of Technology in Computer Science) - IUT of Paris Rives de Seine.
